@@ -16,24 +16,13 @@
     color: #4E4E4E;
   }
 
-  header {
-    /*position: fixed;*/
-    /* top: 0;
-    left: 0; */
-    /*height: 100vh;*/
-    /*background: url(./assets/bg-image.jpg) no-repeat center;
-    background-size: cover;*/
-  }
-
   .wrapper {
     max-width: 1600px;
     margin: 0 auto;
-    /* padding-left: 270px;
-    padding-right: 270px; */
   }
   
   .first-screen {
-    background: url(../bg-image.jpg) no-repeat center;
+    background: url(../img/bg-image.jpg) no-repeat center;
     height: 744px;
     background-size: cover;
   }
@@ -124,8 +113,6 @@
     width: 170px;
     height: 20px;
     margin: 181px auto 0;
-    /* position: absolute;
-    bottom: 0; */
   }
   
   .socials__list {
@@ -162,16 +149,17 @@
   .rappresent__title {
     font-weight: bold;
     font-size: 24px;
-    line-height: 28px;
-    /* align-items: flex-end; */
-    letter-spacing: 1px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
     text-transform: uppercase;
     color: #373737;
+    padding-right: 20px;
   }
 
   .rappresent__content {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 26px;
+    line-height: 21px;
   }
 
   /* our-community */
@@ -263,8 +251,8 @@
   /* sign-up */
 
   .sign-up {
-    background: url(../pexels.jpg) no-repeat center;
-    height: 598px;
+    background: url(../img/pexels.jpg) no-repeat center;
+    height: 524px;
     background-size: cover;
   }
 
@@ -302,18 +290,14 @@
     border-radius: 0px;
     border: 0;
     padding: 0;
-    background: url(../fa-check.svg) #00AFDB no-repeat center;
+    background: url(../img/fa-check.svg) #00AFDB no-repeat center;
   }
 
   .sign-up__button:hover, .sign-up__button:focus, .sign-up__button:active {
-    background: url(../fa-check.svg) #009CC2 no-repeat center;
+    background: url(../img/fa-check.svg) #009CC2 no-repeat center;
   }
 
   /* download */
-
-  .download {
-    /* margin: 120px 558px 180px 597px; */
-  }
 
   .download__title {
     text-align: center;
@@ -328,32 +312,31 @@
   }
   
   .download__form {
-    padding-bottom: 180px;
+    padding-bottom: 181px;
     width: 406px;
-    height: 50px;
     display: flex;
     margin: 0 auto;
   }
 
   .download__text-button {
     width: 128px;
-    height: 50px;
+    height: 47px;
   }
 
   .download__apple-button {
     width: 60px;
-    height: 50px;
+    height: 47px;
     border: 0;
     margin-right: 30px;
-    background: url(../icon-apple.svg) #009CC2 no-repeat center;
+    background: url(../img/icon-apple.svg) #009CC2 no-repeat center;
   }
 
   .download__android-button {
     width: 60px;
-    height: 50px;
+    height: 47px;
     border: 0;
     padding: 0;
-    background: url(../icon-android.svg) #009CC2 no-repeat center;
+    background: url(../img/icon-android.svg) #009CC2 no-repeat center;
   }
 
   .download__text-button:hover, .download__text-button:focus, .download__text-button:active {
@@ -361,11 +344,11 @@
   }
 
   .download__apple-button:hover, .download__apple-button:focus, .download__apple-button:active {
-    background: url(../icon-apple.svg) #00AFDB no-repeat center;
+    background: url(../img/icon-apple.svg) #00AFDB no-repeat center;
   }
 
   .download__android-button:hover, .download__android-button:focus, .download__android-button:active {
-    background: url(../icon-android.svg) #00AFDB no-repeat center;
+    background: url(../img/icon-android.svg) #00AFDB no-repeat center;
   }
 
   /* footer */
@@ -373,12 +356,18 @@
   .footer {
     height: 184px;
     background: black;
-    padding: 60px 160px 79px 160px;
+    padding: 75px 160px 79px 160px;
     display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__logo-pic {
+    height: 46px;
+    margin: -16px 113px 0 0px;
   }
 
   .footer__nav {
-    width: 236px;
+    width: 290px;
     height: 20px;
     display: flex;
   }
